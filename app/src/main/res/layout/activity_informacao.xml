@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Semana de Mobilização Científica (SEMOC) é um evento anual promovido pela Universidade Católica do Salvador (UCSAL). Ela faz parte da programação regular de atividades do calendário acadêmico desde 1998 e envolve a participação de todos os segmentos da comunidade acadêmica, incluindo docentes, discentes e colaboradores1. Aqui estão alguns detalhes sobre a SEMOC:
+
+\n\nObjetivos: A SEMOC tem como objetivo estimular a sensibilização e mobilização dos diversos segmentos da comunidade universitária. Isso inclui a produção e socialização da pesquisa científica, o intercâmbio de atividades culturais e a articulação intercampi e interinstitucional de docentes, discentes, funcionários e pesquisadores2.
+\n\nTemas Anuais: A cada ano, a SEMOC aborda um tema específico. Por exemplo, a 25ª edição da SEMOC, realizada em 2022, teve como tema “Educação Inclusiva” e ocorreu no Campus Pituaçu3. Já a 26ª edição, que aconteceu em 2023, abordou o tema “Democracia e Cidadania no Século 21” e incluiu minicursos e mesas-redondas1.
+\n\nContato: Para mais informações sobre a SEMOC, você pode visitar o site oficial ou verificar a página do evento no Sympla4. Lá, você encontrará detalhes sobre a programação, inscrições e outras informações relevantes."
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+    />
+
+</LinearLayout>
